@@ -29,7 +29,12 @@ render(){
 				<h5>GitHub: http://FakeBook.com</h5>
 				<h5>Website: http://FakeBook.com</h5>
 			</div>
-			<div></div>
+			<div>
+				<h3>Interests:</h3>
+				<h5>Webdevelopment</h5>
+				<h5>Newspaper printing</h5>
+				<h5>Cigars</h5>
+			</div>
 		</div>)
 
 }

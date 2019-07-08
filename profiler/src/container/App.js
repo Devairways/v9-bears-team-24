@@ -17,7 +17,12 @@ class App extends React.Component{
   render(){
   return (
     <div className="App">
-    {(this.state.Route === "home") ? <Profile/> : (this.state.Route === "login") ? <LogIn onRouteChange={this.onRouteChange}/> : <Register onRouteChange={this.onRouteChange}/>}
+    {(this.state.Route === "home") ? <div> 
+                                       <menubar/>
+                                       <Profile/> 
+                                     </div> : (this.state.Route === "login")
+                                     ? <LogIn onRouteChange={this.onRouteChange}/> : 
+                                     <Register onRouteChange={this.onRouteChange}/>}
     </div>
   );
 }
